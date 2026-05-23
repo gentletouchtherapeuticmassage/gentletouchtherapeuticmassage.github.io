@@ -182,22 +182,7 @@ nav {
   line-height: 1.9;
 }
 
-.stats {
-  display: flex;
-  gap: 4rem;
-  margin-top: 3rem;
-}
 
-.stats h4 {
-  font-size: 3rem;
-}
-
-.stats p {
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  font-size: 0.75rem;
-  color: #9b7d62;
-}
 
 .about img {
   border-radius: 2rem;
