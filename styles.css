@@ -264,6 +264,7 @@ nav {
   background: white;
   padding: 2rem;
   border-radius: 2rem;
+  overflow-wrap: anywhere;
 }
 
 .contact-label {
@@ -425,4 +426,93 @@ footer small {
   background: #587665;
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+
+
+
+/* ==========================================
+   Stay Connected
+========================================== */
+
+.social-section {
+  background: #ffffff;
+}
+
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.social-card {
+  background: #f8f5f0;
+  border-radius: 2rem;
+  padding: 3.5rem;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, .05);
+  transition: all .35s ease;
+}
+
+.social-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .08);
+}
+
+.social-icon {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+
+  font-size: 2.5rem;
+}
+
+.google-icon {
+  background: #ffffff;
+  color: #DB4437;
+  border: 2px solid #f0e7dd;
+}
+
+.facebook-icon {
+  background: #1877F2;
+  color: white;
+}
+
+.social-card h4 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.social-card p {
+  color: #6c5b4f;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-card:hover .social-icon {
+  transform: scale(1.08) rotate(5deg);
+  transition: .3s ease;
+}
+
+@media (max-width:768px) {
+
+  .social-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .social-card {
+    padding: 2.5rem;
+  }
+
 }
